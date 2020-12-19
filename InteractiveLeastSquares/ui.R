@@ -107,11 +107,9 @@ ui <- fluidPage(titlePanel("Interactive Least Squares"),
                         "fall quarter 2020 at UC Davis.",
                         br(),
                         br(),
-                        a(href = "", "View our code"),
+                        a(href = "https://github.com/anmeiliu/MAT167-Final", "View our code"),
                         br(),
-                        a(href = "", "Dataset at Kaggle"),
-                        br(),
-                        a(href = "", "Accompanying presentation")
+                        a(href = "https://www.kaggle.com/arslanali4343/real-estate-dataset", "Dataset at Kaggle")
                       )
                       
                     )
