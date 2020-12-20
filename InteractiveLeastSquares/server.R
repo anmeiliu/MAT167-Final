@@ -132,7 +132,7 @@ server <- function(input, output) {
       group = Var2,
       col = Var2
     )) +
-      geom_point() + facet_wrap( ~ Var2) + labs(col = "Regressor") +
+      geom_point() + facet_wrap( ~ Var2, scales = "free_x") + labs(col = "Regressor") +
       ggtitle("Response against each active regressor")
   })
   
